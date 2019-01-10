@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+
+
+
+
+<body>
+    <header>
+        <section class="container">
+            <input id="search" placeholder="Search Place..." type="search" id="search"></div>
+            <button id="searchbutton" font-style="bold" id="button">Search</button></div>
+        </section>
+        <section class="boxes">
+            <input placeholder="Check-In" type="datetime-local" class="datebox">
+            <input placeholder="Check-Out" type="datetime-local" class="datebox">
+            <select id="rooms">
+                <option>Family Rooms</option>
+                <option>Single Rooms</option>
+            </select>
+        </section>
+        <section id="details">
+            <div id="price">
+                <p style="font-size:larger;color: aliceblue">&nbsp;Price:</p>
+                <input placeholder="price" type="range" min="1" max="100" value="50" class="slider" id="myRange">
+            </div>
+            <div id="stars">
+                <p style="font-size:larger;color: aliceblue">&nbsp;Property Type:</p>
+                <select id="Stars">
+                    <option>1 star</option>
+                    <option>2 star</option>
+                    <option>3 star</option>
+                    <option>4 star</option>
+                    <option>5 star</option>
+                </select>
+            </div>
+            <div id="ratings">
+                <p style="font-size:larger;color: aliceblue">&nbsp;Guest Ratings:</p>
+                <select id="Ratings">
+                    <option>0-2 bad</option>
+                    <option>2-6 fair</option>
+                    <option>6-7 good</option>
+                    <option>7-8,5 very good</option>
+                    <option>8,5-10 Excellent</option>
+                </select>
+            </div>
+            <div>
+                <p style="font-size:larger;color: aliceblue">&nbsp;Locations</p>
+
+                <select id="Locations">
+                    <option>Location 1</option>
+                    <option>Location 2</option>
+                    <option>Location 3</option>
+                    <option>Location 4</option>
+                    <option>Location 5</option>
+                </select>
+            </div>
+        </section>
+        <br>
+    </header>
+    <section id="sect1">
+        <div>
+            <a href="https://maps.google.com">
+                <img border="2" alt="maps" src="Screenshot_3.png"></a>
+        </div>
+        <div align="right">
+            <select id="filters" placeholder="filters">
+                <option>Filters</option>
+                <option>Filter 1</option>
+                <option>Filter 2</option>
+                <option>Filter 3</option>
+            </select>
+        </div>
+
+        <script src="main.js"></script>
+        <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+            crossorigin="anonymous"></script>
+
+    </section>
+    <section id="sect2">
+        <div class=hotel>
+            <img src="Screenshot_2.png" alt="Hotel1" width="200px" height="200px">
+        </div>
+        <div class=hotel>
+            <h3>Hotel1</h3>
+            <p>Stars</p>
+            <br>
+            <br>
+            <p>Address</p>
+            <p>User Rating</p>
+        </div>
+        <div class=prices>
+            <br>
+            <br>
+            <a href><b>Hotel</b></a><br>700Euro<br><br>
+            <a href><b>Site 2</b></a><br>800Euro<br><br>
+            <a href><b>Site 3</b></a><br>900Euro
+
+        </div>
+        <div class=buy>
+            <br><br><br>
+            <p>Final Price</p>
+            <p><b>700 Euro</b></p>
+            <button id=deal>View <br>Deal</button>
+        </div>
+    </section>
+    <section id="sect2">
+            <div class=hotel>
+                    <img src="Screenshot_1.png" alt="Hotel1" width="200px" height="200px">
+                </div>
+            <div class=hotel>
+                <h3>Hotel2</h3>
+                <p>Stars</p>
+                <br>
+                <br>
+                <p>Address</p>
+                <p>User Rating</p>
+            </div>
+            <div class=prices>
+                <br>
+                <br>
+                <a href><b>Hotel</b></a><br>259Euro<br><br>
+                <a href><b>Site 4</b></a><br>460Euro<br><br>
+                <a href><b>Site 5</b></a><br>492Euro
+    
+            </div>
+            <div class=buy>
+                <br><br><br>
+                <p>Final Price</p>
+                <p><b>259 Euro</b></p>
+                <button id=deal>View <br>Deal</button>
+            </div>
+        </section>
+</body>
+
+</html>
